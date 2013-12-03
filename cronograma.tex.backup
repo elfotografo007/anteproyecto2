@@ -1,0 +1,27 @@
+\chapter{Cronograma}
+\label{sec:cronograma}
+A continuaci\'on se listan las actividades con su estimaci\'on de tiempo:
+\begin{itemize}
+\item Elección OCR: 8 días.
+\item Diseño y desarrollo módulo de preprocesamiento: 15 días.
+\item Pruebas y ajustes módulo de preprocesamiento: 5 días.
+\item Estudio métodos de búsqueda de texto: 25 días.
+\item Selección método de búsqueda: 8 días.
+\item Ajustes al algoritmo de búsqueda: 15 días.
+\item Diseño y desarrollo módulo de coincidencias: 30 días.
+\item Pruebas y ajustes al módulo de coincidencias: 3 días.
+\item Pruebas preliminares de la aplicación: 5 días.
+\item Ajustes necesarios: 10 días.
+\item Prueba piloto y validación: 10 días.
+\item Escritura documento de proyecto: 20 días.
+
+\end{itemize}
+La figura \ref{fig:dgantt} contiene un diagrama Gantt del cronograma, empezando en marzo primero de 2013:
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.3]{./CronogramaProyectoGrado.png}
+\end{center}
+{\caption{Diagrama Gantt}\label{fig:dgantt}}
+\end{figure}
+
+\pagebreak

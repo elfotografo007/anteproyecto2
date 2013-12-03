@@ -1,0 +1,120 @@
+\chapter{Marco Referencial}
+\label{sec:marco}
+
+\section{Marco de Antecedentes}
+Los juzgados en Colombia est\'an obligados a publicar la informaci\'on de 
+los estados judiciales a primera hora h\'abil del d\'ia siguiente al que 
+fueron generados, para cumplir con esta exigencia la gran mayor\'ia de 
+juzgados instala carteleras en las cuales pegan una o varias hojas 
+donde se encuentra impresa la lista de procesos que se notifican por 
+estado ese d\'ia. Estas listas son de car\'acter p\'ublico y cualquier persona
+que est\'e interesada en ellas puede consultarlas libremente.
+\paragraph{}
+Para los abogados es importante contar con la informaci\'on de sus 
+procesos de manera oportuna y para lograrlo cada uno utiliza el m\'etodo 
+que considere m\'as conveniente, algunos visitan los juzgados diariamente,
+otros contratan personas que se encargan de revisar los listados y 
+recientemente ayudados por las tecnolog\'ias de la informaci\'on han surgido
+servicios donde se satisfacen estas necesidades. Las personas encargadas
+de la prestaci\'on de este servicio basado en las tecnolog\'ias de la 
+informaci\'on, realizan recorridos diarios tomando fotograf\'ias o escaneando
+las listas de estados en cada juzgado, para posteriormente procesar la 
+informaci\'on y enviarla a sus clientes.
+\paragraph{}
+En la tesis de maestr\'ia de Fernando Casanovas Mart\'in, llamada 
+''Approximate string matching algorithms in art media archives'' se 
+intenta crear un sistema para centralizar y facilitar el acceso de los 
+usuarios a un n\'umero significativo de archivos multimedia en Europa. 
+Aqu\'i abordan el problema de buscar en los archivos los nombres de los 
+autores, donde el sistema desarrollado debe encontrar las coincidencias
+tolerando errores de escritura y abreviaciones.
+\paragraph{}
+El anterior documento es importante porque en el desarrollo de la 
+investigaci\'on se eval\'uan distintos algoritmos de coincidencia aproximada
+de cadenas, dando un punto de partida importante para el desarrollo de 
+la investigaci\'on que se piensa llevar a cabo.
+\paragraph{}
+A pesar de que existen diversas herramientas que permiten la identificaci\'on
+de texto contenido en im\'agenes, el proceso de revisi\'on de estados es 
+una actividad que se realiza ‘manualmente’, por lo tanto, es necesario 
+desarrollar una herramienta que ayude a agilizar este proceso.
+
+\section{Marco Te\'orico}
+\subsection{Coincidencia aproximada de cadenas}
+La coincidencia aproximada de cadenas o tambi\'en conocido como b\'usqueda 
+difusa de cadenas, contempla encontrar patrones de texto dentro de un 
+texto m\'as grande, permitiendo alguna cantidad de errores en la coincidencia.
+Esto significa que para que una cadena coincida con otra, no es necesario
+que tengan la misma longitud ni que coincidan exactamente todos los 
+caracteres.
+\paragraph{}
+Para poder buscar estas cadenas difusas, 
+''lo primero que se necesita es crear un modelo de error, el cual define qu\'e tan diferentes son dos cadenas. Esta idea de qu\'e tan diferentes son dos cadenas es llamado distancia entre cadenas.'' (Casanovas Mart\'in, Fernando. Approximate string matching algorithms in art media archives p 7)
+
+\subsection{Edit Distance}
+Edit distance es una distancia que mide la diferencia entre dos 
+secuencias o cadenas de texto sobre un alfabeto. Esta distancia mide el
+m\'inimo n\'umero de operaciones necesarias para convertir una cadena en la
+otra. Una operaci\'on se considera la inserci\'on, la sustituci\'on o la 
+remoci\'on de un solo caracter.
+
+\section{Marco Conceptual}
+\subsection{Proceso judicial}
+Es el mecanismo encargado de proteger el derecho al debido proceso 
+establecido por la constituci\'on, donde se garantiza un juez o un 
+tribunal para que se encargue de juzgar las actuaciones judiciales y 
+administrativas bajo el amparo de la ley. Quien sea sindicado tiene 
+derecho a la defensa, a ser representado por un abogado, a presentar 
+pruebas y controvertir las decisiones que se tomen en su contra.
+(constituci\'on pol\'itica de Colombia art\'iculo 29, C\'odigo general del proceso)
+
+
+\subsection{Notificaci\'on por estado} 
+Notificaci\'on de la decisi\'on de un juez que seg\'un lo establecido en la 
+ley no deba hacerse personalmente, esta se hace por medio de anotaci\'on 
+en estados los cuales deben ser publicados a la primera hora laboral 
+del d\'ia siguiente a la fecha en que es generado.
+
+\subsection{Auto}
+Son todas las decisiones de un juez, cualquiera fuere la instancia en 
+que se pronuncien, que no sean decisiones sobre las pretensiones de
+la demanda o las excepciones que no tengan el car\'acter de previas.
+
+\subsection{Tr\'amite} Si el recurso se formula por escrito, este se mantendr\'a en la secretar\'ia por dos d\'ias en traslado a la parte contraria, sin necesidad de que el juez, lo ordene; surtido el traslado se decidir\'a el recurso. El secretario dar\'a cumplimiento al art\'iculo.
+La reposici\'on interpuesta en audiencia y diligencia se decidir\'a all\'i mismo, una vez o\'ida la parte contraria si estuviere presente. Para este fin cada parte podr\'a hacer uso de la palabra hasta por quince minutos. (c\'odigo del procedimiento civil art\'iculo 349)
+\begin{description}
+\item[Procesos con tr\'amite:] Proceso que se encuentra abierto y en 
+determinado periodo se ha desarrollado acorde lo que  se define como 
+tr\'amite en el c\'odigo del procedimiento civil.
+
+\item[Procesos sin tr\'amite:] Proceso que se encuentra abierto pero en 
+determinado periodo no se ha desarrollado acorde a lo que se define 
+como tr\'amite en el c\'odigo del procedimiento civil.
+\end{description}
+
+\subsection{Coincidencia Aproximada de cadenas}  
+''La coincidencia aproximada de cadenas es una coincidencia de cadenas 
+que permite errores. El objetivo es realizar una coincidencia de 
+cadenas en un texto donde una o ambas fuentes han sufrido alg\'un tipo 
+de corrupci\'on.''(Casanovas Mart\'in, Fernando. Approximate string matching algorithms in art media archives p73 )
+
+\subsection{Reconocimiento de texto} 
+''El reconocimiento de texto es ejecutado para convertir una imagen 
+que contiene texto impreso o manuscrito en un formato que puede ser 
+entendido por un computador (Ej. ASCII o unicode)'' (Introduction to Document Analysis and Recognition)
+
+\subsection{OCR}
+''Los sistemas de reconocimiento de texto frecuentemente dividen las 
+palabras en caracteres y luego asignan una clase a cada objeto aislado.
+Cuando se trata de texto impreso, esta aproximaci\'on es generalmente 
+conocido como Reconocimiento Óptico de Caracteres (OCR por sus siglas 
+en ingl\'es)''(Introduction to Document Analysis and Recognition)
+
+
+\subsection{Probabilidad}
+La probabilidad permite expresar num\'ericamente la posibilidad que un 
+evento ocurra.  Se afirma que algo va o no va a ocurrir, pero no se 
+est\'a seguro de ello. La probabilidad es el grado de confianza en la 
+validez de dicha afirmaci\'on.(Probabilidad y estad\'istica para ingenier\'ia y ciencias)
+
+\pagebreak

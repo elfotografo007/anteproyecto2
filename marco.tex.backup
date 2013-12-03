@@ -1,0 +1,92 @@
+\chapter{Marco Referencial}
+\label{sec:marco}
+
+\section{Marco de Antecedentes}
+Los juzgados en Colombia están obligados a publicar la información de 
+los estados judiciales a primera hora hábil del día siguiente al que 
+fueron generados, para cumplir con esta exigencia la gran mayoría de 
+juzgados instala carteleras en las cuales pegan una o varias hojas 
+donde se encuentra impresa la lista de procesos que se notifican por 
+estado ese día. Estas listas son de carácter público y cualquier persona
+que esté interesada en ellas puede consultarlas libremente.
+\paragraph{}
+Para los abogados es importante contar con la información de sus 
+procesos de manera oportuna y para lograrlo cada uno utiliza el método 
+que considere más conveniente, algunos visitan los juzgados diariamente,
+otros contratan personas que se encargan de revisar los listados y 
+recientemente ayudados por las tecnologías de la información han surgido
+servicios donde se satisfacen estas necesidades. Las personas encargadas
+de la prestación de este servicio basado en las tecnologías de la 
+información, realizan recorridos diarios tomando fotografías o escaneando
+las listas de estados en cada juzgado, para posteriormente procesar la 
+información y enviarla a sus clientes.
+\paragraph{}
+En la tesis de maestría de Fernando Casanovas Martín, llamada 
+“Approximate string matching algorithms in art media archives” se 
+intenta crear un sistema para centralizar y facilitar el acceso de los 
+usuarios a un número significativo de archivos multimedia en Europa. 
+Aquí abordan el problema de buscar en los archivos los nombres de los 
+autores, donde el sistema desarrollado debe encontrar las coincidencias
+tolerando errores de escritura y abreviaciones.
+\paragraph{}
+El anterior documento es importante porque en el desarrollo de la 
+investigación se evalúan distintos algoritmos de coincidencia aproximada
+de cadenas, dando un punto de partida importante para el desarrollo de 
+la investigación que se piensa llevar a cabo.
+\paragraph{}
+A pesar de que existen diversas herramientas que permiten la identificación
+de texto contenido en imágenes, el proceso de revisión de estados es 
+una actividad que se realiza ‘manualmente’, por lo tanto, es necesario 
+desarrollar una herramienta que ayude a agilizar este proceso.
+
+\section{Marco Te\'orico}
+\subsection{Coincidencia aproximada de cadenas}
+La coincidencia aproximada de cadenas o también conocido como búsqueda 
+difusa de cadenas, contempla encontrar patrones de texto dentro de un 
+texto más grande, permitiendo alguna cantidad de errores en la coincidencia.
+Esto significa que para que una cadena coincida con otra, no es necesario
+que tengan la misma longitud ni que coincidan exactamente todos los 
+caracteres.
+\paragraph{}
+Para poder buscar estas cadenas difusas, 
+''lo primero que se necesita es crear un modelo de error, el cual define qué tan diferentes son dos cadenas. Esta idea de qué tan diferentes son dos cadenas es llamado distancia entre cadenas.'' (Casanovas Martín, Fernando. Approximate string matching algorithms in art media archives p 7)
+
+\subsection{Edit Distance}
+Edit distance es una distancia que mide la diferencia entre dos 
+secuencias o cadenas de texto sobre un alfabeto. Esta distancia mide el
+mínimo número de operaciones necesarias para convertir una cadena en la
+otra. Una operación se considera la inserción, la sustitución o la 
+remoción de un solo caracter.
+
+\begin{quote}
+Las necesidades humanas – necesidades del consumidor – son el fundamento de todo el \textit{marketing} moderno. Las necesidades constituyen la esencia del concepto \textit{marketing}. La clave de la supervivencia, la rentabilidad y el crecimiento de una compañ\'ia en un mercado altamente competitivo es su capacidad para identificar y satisfacer necesidades insatisfechas del consumidor mejor y m\'as r\'apido que la competencia.
+Los mercad\'ologos no crean las necesidades, aunque en algunos casos pueden hacer que los consumidores est\'en m\'as conscientes de necesidades que anteriormente no hab\'ian sentido.\footnote{SCHIFFMAN , Leon G. KANUK , Leslie L. El comportamiento del consumidor. Pearson Educacion (Agosto 2005). p. 85}
+\end{quote}
+\subsection{Motivaci\'on como una fuerza psicol\'ogica}
+\begin{quote}
+La motivaci\'on se define como la fuerza impulsora dentro de los individuos que los empuja a la acci\'on. Esta fuerza impulsora se genera por un estado de tensi\'on que existe como resultado de una necesidad insatisfecha. Los individuos se esfuerzan tanto consciente como subconscientemente por reducir dicha tensi\'on mediante un comportamiento que, seg\'un sus expectativas, satisfacer\'a sus necesidades y, de esa manera, mitigara el estr\'es que padecen. Las metas espec\'ificas que eligen y los patrones que realizan para alcanzar sus metas son resultado del pensamiento y el aprendizaje individual.\footnote{IBID. p. 87}
+\end{quote}
+\section{Marco Conceptual}
+\subsection{Georreferenciaci\'on}\footnote{King, Kevin F., Geolocation and Federalism on the Internet: Cutting Internet Gambling’s Gordian Knot (July 14, 2009). Columbia Science and Technology Law Review, Vol. XI, 2010. p. 58}
+Por georreferenciaci\'on o geolocalizaci\'on se entiende la posici\'on de un objeto en un sistema de coordenadas geogr\'aficas, que identifican la localizaci\'on f\'isica de un usuario final de internet.
+\subsection{Fases \textit{Map} y \textit{Reduce}}
+En la fase de mapeo, se divide la carga de trabajo en cargas de trabajo m\'as peque\~nas, luego las procesa y finalmente las pasa a la siguiente fase. En la fase de reducci\'on se analiza y se mezcla la entrada de la fase anterior para producir la salida final del sistema. Esta salida es escrita en el sistema de archivos del cl\'uster.
+\subsection{Foursquare}
+\begin{quote}
+Foursquare es una aplicaci\'on gratuita que te ayuda a ti y a tus amigos a sacar el m\'aximo provecho de d\'onde est\'an.​ Cada vez que salgas,​ usa Foursquare para compartir y guardar los lugares que visitas.​ Y cuando necesites ideas sobre qu\'e hacer despu\'es,​ te daremos recomendaciones personalizadas y ofertas seg\'un donde hayan estado t\'u,​ tus amigos y la gente con tus mismos gustos.​
+\paragraph{}
+Ya sea que est\'es por viajar por el mundo, organizando una noche con amigos o tratando de elegir el mejor plato en tu restaurante local, Foursquare es el compa\~nero ideal.\footnote{Foursquare. About foursquare[Online]. Disponible en internet \textless https://foursquare.com/about/\textgreater}
+\end{quote}
+\subsubsection{Algunos conceptos claves de Foursquare}
+\begin{description}
+\item[\textit{Check-ins}:] Las personas usan Foursquare para encontrar nuevos lugares para ir, e ingresar (\textit{“check in”}) para decirle a sus amigos d\'onde est\'an y qu\'e es grandioso. Foursquare tambi\'en utiliza \textit{check-ins} pasados para personalizar las recomendaciones de las personas.
+\item[\textit{Tips}:] Las personas dejan breves recomendaciones en lugares para sus amigos y otros para descubrir, como qu\'e plato ordenar, el mejor tiempo para visitar o c\'omo encontrar el cuarto trasero secreto.
+\item[Listas:] Las personas hacen listas de lugares a donde quieren ir, o listas de lugares que disfrutan, como los mejores puntos para bailar o sus restaurantes vegetarianos favoritos.
+\item[Especiales:] Los especiales son recompensas que las personas pueden obtener por hacer \textit{check-in} en un negocio o evento.
+\item[Actualizaciones:] Las actualizaciones son mensajes que se pueden enviar desde las tiendas hacia los clientes
+\end{description}
+\subsection{Mercado objetivo}
+\begin{quote}
+El mercado objetivo hace alusi\'on al espacio del mercado que tienen en com\'un la oferta y la demanda. Comprende entre sus elementos m\'as importantes el alcance geogr\'afico, los canales de distribuci\'on, las categor\'ias de productos comerciados, el repertorio de competidores directos e indirectos, los t\'erminos de intercambio, y a los representantes de la demanda entre los que se encuentran influenciadores y prospectos compradores.\footnote{KOTLER, Philip.  Fundamentos de \textit{marketing} (6ª edici\'on). Pearson Educaci\'on de M\'exico. 2003. p. 123}
+\end{quote}
+\pagebreak

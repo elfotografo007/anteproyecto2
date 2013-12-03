@@ -1,0 +1,18 @@
+\chapter{Objetivos Generales y espec\'ificos}
+\label{sec:objetivos}
+
+\section{Objetivo General}
+\paragraph{}
+Desarrollar un prototipo de software de identificaci\'on de clientes potenciales a trav\'es de sus h\'abitos en la plataforma Foursquare.
+\section{Objetivos Espec\'ificos}
+\begin{itemize}
+\item Realizar estudio sobre la  \textit{API} de Foursquare.
+\item Realizar un estudio de los patrones de comportamiento de los usuarios de Foursquare en la ciudad de Pereira.
+\item Comparar modelos de reconocimiento de patrones que puedan ser aplicados a la identificaci\'on de clientes potenciales y seleccionar uno.
+\item Implementar dicho modelo desarrollado en el paradigma \textit{MapReduce}.
+\item Desarrollar una interfaz para presentaci\'on de resultados del procesamiento de los datos.
+\item Validar mediante una prueba piloto el nivel de efectividad de identificaci\'on de perfiles.
+\end{itemize}
+
+
+\pagebreak

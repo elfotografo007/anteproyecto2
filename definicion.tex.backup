@@ -1,0 +1,20 @@
+\chapter{Definici\'on del problema}
+\label{sec:definicion}
+\paragraph{}
+Foursquare (http://foursquare.com) es una red social de georreferenciaci\'on que ha logrado de forma muy exitosa acercar los servicios basados en la localizaci\'on al mercadeo. Para aquellas empresas que quieren incrementar el n\'umero de clientes que ingresan a sus almacenes, Foursquare brinda diferentes herramientas para hacer que esto pase: publican ofertas, dan medallas y reconocimientos a sus usuarios para que estos ingresen a lugares espec\'ificos.
+\paragraph{}
+Adicionalmente los usuarios de Foursquare hacen social su posici\'on geogr\'afica: muchos al llegar a un lugar publican en esta red social su localizaci\'on actual, la cual queda registrada de forma permanente.
+\paragraph{}
+Actualmente entre las herramientas que ofrece Foursquare para los negocios son aquellas que pueden hacer que los usuarios de la red social se acerquen a los locales comerciales por medio de ofertas y otros incentivos. Adicionalmente ofrecen a disposici\'on del p\'ublico toda su base de datos de posiciones geogr\'aficas que han registrado sus usuarios.
+\paragraph{}
+A pesar de las herramientas actuales ofrecidas por la compa\~n\'ia y por terceros, no hay una herramienta que proporcione a las empresas la forma de identificar posibles clientes. Foursquare autom\'aticamente identifica posibles clientes a trav\'es de los gustos de sus usuarios y a estos mismos usuarios les muestra una sugerencia de ir a dicha empresa o almac\'en, pero en ning\'un momento las empresas pueden saber qui\'enes son estos potenciales usuarios.
+\paragraph{}
+Despu\'es de una b\'usqueda en internet de las herramientas desarrolladas para Foursquare, no se encontr\'o ninguna que aproveche estos datos de georreferenciaci\'on que est\'an almacenados en esta plataforma para identificar posibles compradores o perfiles de clientes con base en los h\'abitos de visita. Algunas cifras de Foursquare:
+\paragraph{}
+"Foursquare en n\'umeros (\'ultima actualizaci\'on: septiembre de 2012)
+\begin{itemize}
+\item Comunidad: m\'as de 25 millones de personas en todo el mundo
+\item M\'as de 2,5 mil millones de check-ins y millones m\'as cada d\'ia
+\item Comercios: m\'as de un mill\'on usan la Plataforma para comerciantes (m\'as informaci\'on en foursquare.com/business)"\footnote{Foursquare. About foursquare[online]. Disponible en internet \textless https://foursquare.com/about/\textgreater}
+\end{itemize}
+\pagebreak
